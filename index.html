@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Slot Machine</title>
+</head>
+<body>
+    <div id="container">
+        <head class="head">
+            <figcaption>
+                <img id="logo" src="./assets/GAMBLE DEV.png" alt="logo">
+            </figcaption>
+        </head>
+        <main>
+            <div id="slots">
+                <div id="slot1" class="slot"></div>
+                <div id="slot2" class="slot"></div>
+                <div id="slot3" class="slot"></div>
+            </div>
+            <div id="credits">
+                <div id="balance" class="view-credits">
+                    <p>Amount: </p>
+                </div>
+                <div id="bet" class="view-credits">
+                    <p>Bet: </p>
+                </div>
+            </div>
+            <div id="info-lose">
+                <p id="lose" class="hidden">You Lose! Press Replay</p>
+            </div>
+            <div id="button">
+                <input id="spin" type="button" value="Spin">
+                <input id="replay" type="button" value="Replay" class="hidden">
+            </div>
+            <aside id="legend">
+                <p class="info">first, second and third = 50</p>
+                <p class="info">first and third = 25</p>
+                <p class="info">first and second = 10</p>
+                <p class="info">second and third = 5</p>
+            </aside>
+        </main>
+        <footer>
+            <div id="contact">
+                <a href="https://www.linkedin.com/in/carlosmartorini/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <div id="register-production">
+                <p>&copy; Martorini Productions</p>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
